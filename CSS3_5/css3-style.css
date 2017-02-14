@@ -1,0 +1,240 @@
+body {
+	background-color: #340D0A;
+	margin: 0;
+	padding: 0;
+}
+h1.head1 {
+	text-align: center;
+	color: blue;
+	font-family: arial;
+	border-bottom: 1px double olive;
+	text-transform: capitalize;
+}
+h2.head1 {
+	text-align: center;
+	color: green;
+}
+
+h4.bold1 {
+	text-align: center;
+	color: white;
+	font-size: 26px;
+}
+
+p#tow-d-p {
+	text-align: center;
+	font-size: 35px;
+	padding: 25px;
+	
+}
+
+						/*animation-method*/
+div#animation-container {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+}	
+div#animation-body{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: blue;
+	-webkit-animation-name: animation-one;
+	animation-name: animation-one;
+	-webkit-animation-duration: 8s;
+	animation-duration: 8s;	
+}
+@-webkit-keyframes animation-one {
+	from {
+		background-color: green;
+	}
+	to {
+		background-color: white;
+	}
+}
+@keyframes animation-one {
+	from {
+		background-color: green;
+	}
+	to {
+		background-color: white;
+	}
+}
+
+
+	
+div#animation-body-one {
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: blue;
+	-webkit-animation-name: animation-two;
+	animation-name: animation-two;
+	-webkit-animation-duration: 8s;
+	animation-duration: 8s;	
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;	
+}
+@-webkit-keyframes animation-two {
+	0% {background-color: blue;}
+	25% {background-color: gray;}
+	50% {background-color: green;}
+	75% {background-color: red;}
+	100% {background-color: yellow;}
+}
+@keyframes animation-two {
+	0% {background-color: blue;}
+	25% {background-color: gray;}
+	50% {background-color: green;}
+	75% {background-color: red;}
+	100% {background-color: yellow;}
+}
+
+
+
+/*
+div#animation-container-three {
+	margin: auto;
+	width: 60%;
+	height: 500px;
+	border: 2px groove white;
+	clear: both;
+}	
+div#animation-body-three {
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: blue;
+	-webkit-animation-name: animation-three;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 5s;
+	-webkit-animation-iteration-count: 3;
+	animation-name: animation-three;
+	animation-duration: 8s;
+	animation-delay: 5s;
+	animation-iteration-count: 3;
+	position: relative;	
+}
+@-webkit-keyframes animation-three {
+	0% {background-color: blue; left: 0px; top: 0px;}
+	25% {background-color: gray; left: 200px; top: 0px;}
+	50% {background-color: green; right: 200px; top: 337px;}
+	75% {background-color: red; left: 0px; top: 337px;}
+	100% {background-color: yellow; left: 0px; top: 0px;}
+}
+@keyframes animation-three {
+	0% {background-color: blue; left: 0px; top: 0px;}
+	25% {background-color: gray; left: 200px; top: 0px;}
+	50% {background-color: green; left: 200px; top: 337px;}
+	75% {background-color: red; left: 0px; top: 337px;}
+	100% {background-color: yellow; left: 0px; top: 0px;
+}
+*/
+
+
+/*
+div#animation-container-four {
+	margin: auto;
+	width: 60%;
+	height: 500px;
+	border: 2px groove white;
+	clear: both;
+}	
+div#animation-body-four {
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: blue;
+	-webkit-animation-name: animation-four;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 5s;
+	-webkit-animation-iteration-count: 3;
+	-webkit-animation-direction: alternate;
+	animation-name: animation-four;
+	animation-duration: 8s;
+	animation-delay: 5s;
+	animation-iteration-count: 3;
+	animation-direction: alternate;
+	position: relative;	
+}
+@-webkit-keyframes animation-four {
+	0% {background-color: blue; left: 0px; top: 0px;}
+	25% {background-color: gray; left: 200px; top: 0px;}
+	50% {background-color: green; right: 200px; top: 337px;}
+	75% {background-color: red; left: 0px; top: 337px;}
+	100% {background-color: yellow; left: 0px; top: 0px;}
+}
+@keyframes animation-four {
+	0% {background-color: blue; left: 0px; top: 0px;}
+	25% {background-color: gray; left: 200px; top: 0px;}
+	50% {background-color: green; left: 200px; top: 337px;}
+	75% {background-color: red; left: 0px; top: 337px;}
+	100% {background-color: yellow; left: 0px; top: 0px;
+}
+
+*/
+
+
+
+div#animation-container-five {
+	margin: auto;
+	width: 90%;
+	height: auto;
+	border: 2px groove white;
+	clear: both;
+	margin-top: 50px;
+	background-color: yellow;
+}
+div#animation-body-five {
+	margin: auto;
+	width: 30%;
+	height: 165px;
+	margin-bottom: 5px;
+	border: 2px groove blue;
+	color: white;
+	background-color: blue;
+	-webkit-animation-name: mymove;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	animation-name: mymove;
+	animation-delay: 2s;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	position: relative;
+}
+@-webkit-keyframes mymove {
+	from {left: 0px;}
+	to {left: 200px;}
+}
+@keyframes mymove {
+	from {left: 0px;}
+	to {left: 200px;}
+}
+div.body-five {
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+div.body-six {
+	-webkit-animation-timing-function: ease;
+	animation-timing-function: ease;
+}
+div.body-seven {
+	-webkit-animation-timing-function: ease-in;
+	animation-timing-function: ease-in;
+}
+div.body-eight {
+	-webkit-animation-timing-function: ease-out;
+	animation-timing-function: ease-out;
+}
+div.body-nine {
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;	
+}

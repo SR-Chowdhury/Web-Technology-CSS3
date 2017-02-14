@@ -1,0 +1,189 @@
+body {
+	background-color: #340D0A;
+	margin: 0;
+	padding: 0;
+}
+h1.head1 {
+	text-align: center;
+	color: blue;
+	font-family: arial;
+	border-bottom: 1px double olive;
+	text-transform: capitalize;
+}
+h2.head1 {
+	text-align: center;
+	color: green;
+}
+
+h4.bold1 {
+	text-align: center;
+	color: white;
+	font-size: 26px;
+}
+
+							/*Shadow Effect*/
+div#shadow-effect {
+	margin: auto;
+	width: 1000px;
+	background: white;
+	height: auto;
+	padding-bottom:5px;
+}
+p.p-shadow-effect {
+	text-align: center;
+	font-size: 45px;
+	word-spacing: 5px;
+	color: black;
+	line-height: 15px;
+	border: 1px groove blue;
+	width: 50%;
+	padding: 25px;
+	margin: 55px;
+}
+.one {
+	text-shadow: 15px -25px red;
+	background-color: yellow;
+	box-shadow: 10px 10px;
+}
+.two {
+	text-shadow: 2px 2px 5px blue;
+	box-shadow: 0px 4px 10px 12px grey;
+}
+.three {
+	text-shadow: -6px -1px 11px #000000;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.four {
+	text-shadow: 14px -20px 5px black, 0 0 25px blue, 0 0 5px darkblue;
+	box-shadow: -5px -1px 20px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+							/*text-overflow*/
+div#text-overflow {
+	margin: auto;
+	width: 1000px;
+	height: auto;
+	padding-bottom:5px;
+	color: white;
+}
+.five {
+	font-variant: small-caps;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: clip;
+	width: 400px;
+	margin: auto;
+	white-space: nowrap;
+	border: 1px solid yellow;
+	margin-bottom: 8px;
+}
+.six {
+	font-variant: small-caps;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 400px;
+	margin: auto;
+	white-space: nowrap;
+	border: 1px solid yellow;
+	margin-bottom: 8px;
+}
+.seven {
+	font-variant: small-caps;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: clip;
+	width: 400px;
+	margin: auto;
+	white-space: nowrap;
+	border: 1px solid blue;
+	margin-bottom: 8px;
+}
+.seven:hover {
+	overflow: visible;
+	width: 50%;
+}
+.eight {
+	font-variant: small-caps;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 400px;
+	margin: auto;
+	white-space: nowrap;
+	border: 1px solid blue;
+}
+.eight:hover {
+	overflow: visible;
+	width: 50%;
+}
+
+
+
+								/*word-wrap*/
+div#word-wrap {
+	margin: auto;
+	width: 1000px;
+	color: white;
+	clear: both;
+	padding-bottom: 5px;
+}
+div#word-wrap-one {
+	display: table;
+	margin: auto;
+}
+
+p.p-word-wrap-one {
+	text-align: center;
+	border: 4px groove red;
+	padding: 4px;
+	width: 176px;
+	float: left;
+	margin: 35px;
+}
+p.p-word-wrap-two {
+	text-align: center;
+	border: 4px groove green;
+	padding: 4px;
+	width: 176px;
+	float: left;
+	margin: 35px;
+	word-wrap: break-word;
+}	
+
+
+
+								/*word-break*/
+div#word-break {
+	margin: auto;
+	width: 1000px;
+	color: white;
+	clear: both;
+	padding-bottom: 5px;
+}
+div#word-break-one {
+	display: table;
+	margin: auto;
+}
+
+p.p-word-break-one {
+	text-align: center;
+	border: 4px groove green;
+	padding: 4px;
+	width: 176px;
+	float: left;
+	margin: 35px;
+	word-break: keep-all;
+	word-wrap: break-word;
+}
+p.p-word-break-two {
+	text-align: center;
+	border: 4px groove red;
+	padding: 4px;
+	width: 176px;
+	float: left;
+	margin: 35px;
+	word-break: break-all;
+	word-wrap: break-word;
+}	

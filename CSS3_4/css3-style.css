@@ -1,0 +1,277 @@
+body {
+	background-color: #340D0A;
+	margin: 0;
+	padding: 0;
+}
+h1.head1 {
+	text-align: center;
+	color: blue;
+	font-family: arial;
+	border-bottom: 1px double olive;
+	text-transform: capitalize;
+}
+h2.head1 {
+	text-align: center;
+	color: green;
+}
+
+h4.bold1 {
+	text-align: center;
+	color: white;
+	font-size: 26px;
+}
+
+
+									/*rotateX-method*/
+div#rotateX-method-container {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+}	
+div#except-rotateX-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	margin-top: 15px;
+}	
+div#rotateX-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transform: rotateX(220deg);
+	transform: rotateX(220deg);
+}
+p#tow-d-p {
+	text-align: center;
+	font-size: 35px;
+	padding: 25px;
+	
+}
+
+
+
+									/*rotateY-method*/
+div#rotateY-method-container {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+}	
+div#except-rotateY-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	margin-top: 15px;
+}	
+div#rotateY-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transform: rotateY(220deg);
+	transform: rotateY(220deg);
+}
+
+
+
+									/*rotateZ-method*/
+div#rotateZ-method-container {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+	margin-bottom: 125px;
+}	
+div#except-rotateZ-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	margin-top: 15px;
+}	
+div#rotateZ-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transform: rotateZ(220deg);
+	transform: rotateZ(220deg);
+}
+
+
+									/*transition-method*/
+div#transition-method-container {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+	margin-bottom: 15px;
+}
+div#transition-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transition: width 3s;
+	transition: width 3s;
+}
+div#transition-method:hover {
+	width: 100%;
+}
+
+
+
+									/*transition-timing-function(linear)*/
+div#transition-timing-function-container-linear {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+}
+div#transition-timing-function-linear{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transition: width 3s;
+	transition: width 3s;
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+}
+div#transition-timing-function-linear:hover {
+	width: 100%;
+}
+
+
+							/*transition-timing-function(ease)*/
+									
+div#transition-timing-function-container-ease {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+}
+div#transition-timing-function-ease{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transition-timing-function: ease;
+	transition-timing-function: ease;
+	-webkit-transition: width 3s;
+	transition: width 3s;
+}
+div#transition-timing-function-ease:hover {
+	width: 100%;
+}
+
+
+
+									/*transition-timing-function(ease-in)*/
+div#transition-timing-function-container-ease-in {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+}
+div#transition-timing-function-ease-in{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+	-webkit-transition: width 3s;
+	transition: width 3s;
+}
+div#transition-timing-function-ease-in:hover {
+	width: 100%;
+}
+
+
+
+									/*transition-timing-function(ease-out)*/
+div#transition-timing-function-container-ease-out {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+}
+div#transition-timing-function-ease-out{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	-webkit-transition: width 3s;
+	transition: width 3s;
+}
+div#transition-timing-function-ease-out:hover {
+	width: 100%;
+}
+
+
+
+									/*transition-timing-function(ease-in-out)*/
+div#transition-timing-function-container-ease-in-out {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+}
+div#transition-timing-function-ease-in-out{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+	-webkit-transition: width 3s;
+	transition: width 3s;
+}
+div#transition-timing-function-ease-in-out:hover {
+	width: 100%;
+}
+
+
+
+									/*Transition(width/height)*/
+div#transition-method-container-last {
+	margin: auto;
+	width: 1000px;
+	height:  400px;
+	border: 2px groove white;
+	clear: both;
+	margin-bottom: 15px;
+}
+div#transition-method-last{
+	margin: auto;
+	width: 50%;
+	height: 30%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transition: width 3s, height 5s;
+	transition: width 3s, height 5s;
+}
+div#transition-method-last:hover {
+	width: 100%;
+	height: 100%;
+}
