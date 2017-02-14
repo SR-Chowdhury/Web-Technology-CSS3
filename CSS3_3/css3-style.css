@@ -1,0 +1,202 @@
+body {
+	background-color: #340D0A;
+	margin: 0;
+	padding: 0;
+}
+h1.head1 {
+	text-align: center;
+	color: blue;
+	font-family: arial;
+	border-bottom: 1px double olive;
+	text-transform: capitalize;
+}
+h2.head1 {
+	text-align: center;
+	color: green;
+}
+
+h4.bold1 {
+	text-align: center;
+	color: white;
+	font-size: 26px;
+}
+
+						/*translate-method*/
+div#translate-method-container {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+}	
+div#translate-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transform: translate(50px, 40px);
+	transform: translate(50px, 40px);
+}
+div#translate-method p {
+	text-align: center;
+	font-size: 35px;
+	padding: 25px;
+	
+}
+
+						/*rotate-method*/
+div#rotate-method-container {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+}	
+div#except-rotate-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	margin-top: 15px;
+}	
+div#rotate-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transform: rotate(20deg);
+	transform: rotate(20deg);
+}
+p#tow-d-p {
+	text-align: center;
+	font-size: 35px;
+	padding: 25px;
+	
+}
+
+						/*scale-method*/
+div#scale-method-container {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+	margin-bottom: 45px;
+}	
+div#scale-method{
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 8px;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transform: scale(2,2);
+	transform: scale(2,2);
+}
+
+
+
+						/*skew-method*/
+div#skew-method-container {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+	margin-bottom: 95px;
+}	
+div#except-skew-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	margin-top: 15px;
+}	
+div#skew-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transform: skew(20deg, 10deg);
+	transform: skew(20deg, 10deg);
+}
+
+
+						/*skewX-method*/
+div#skewX-method-container {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+}	
+div#except-skewX-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	margin-top: 15px;
+}	
+div#skewX-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transform: skewX(20deg);
+	transform: skewX(50deg);
+}
+
+						/*skewY-method*/
+div#skewY-method-container {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+	margin-bottom: 130px;
+}	
+div#except-skewY-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	margin-top: 15px;
+}	
+div#skewY-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transform: skewY(20deg);
+	transform: skewY(50deg);
+}
+
+
+						/*matrix-method*/
+div#matrix-method-container {
+	margin: auto;
+	width: 60%;
+	border: 2px groove white;
+	clear: both;
+}	
+div#except-matrix-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	margin-top: 15px;
+}	
+div#matrix-method{
+	margin: auto;
+	width: 50%;
+	border: 2px groove blue;
+	color: white;
+	background-color: green;
+	-webkit-transform: matrix(1,-0.5,1,1,5,5);
+	transform: matrix(1,-0.5,1,1,5,5);
+}
