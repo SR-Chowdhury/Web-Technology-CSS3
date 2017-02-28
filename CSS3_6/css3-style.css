@@ -1,0 +1,553 @@
+body {
+	background-color: #340D0A;
+	margin: 0;
+	padding: 0;
+}
+h1.head1 {
+	text-align: center;
+	color: blue;
+	font-family: arial;
+	border-bottom: 1px double olive;
+	text-transform: capitalize;
+}
+h2.head1 {
+	text-align: center;
+	color: green;
+}
+
+h4.bold1 {
+	text-align: center;
+	color: white;
+	font-size: 26px;
+}
+
+
+						/*responsive-image*/
+div#responsive-image {
+	margin: auto;
+	width: 72%;
+	clear: both;
+	padding: 5px;
+	border: 1px solid red;
+}
+div#responsive-image img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+
+						/*Responsive-polaroid-body*/
+div#polaroid-body {
+	margin: auto;
+	clear: both;
+	width: 90%;
+	border: 1px solid white;
+	display: table;
+	background-color: white;
+}
+div#polaroid-body-container {
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+div#polaroid-image {
+	display: inline-table;
+	border: 1px solid yellow;
+	margin: 25px;
+	background-color: white;
+	box-shadow: 0 4px 10px 3px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+div#polaroid-image img{
+	display: block;
+	opacity: 0.7;
+}
+div#polaroid-image img:hover{
+	opacity: 1.0;
+}
+div#polaroid-image p {
+	text-align: center;
+	color: black;
+	padding: 10px 15px;
+}
+
+
+
+
+						/*responsive-image-text*/
+div#responsive-image-text {
+	margin: auto;
+	width: 72%;
+	clear: both;
+	padding: 5px;
+	border: 1px solid red;
+	position: relative;
+}
+div#responsive-image-text img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+}
+p#iamge-p-one {
+	position: absolute;
+	top: 15px;
+	left: 25px;
+	color: red;
+	font-size: 38px;
+}
+p#iamge-p-two {
+	position: absolute;
+	top: 15px;
+	right: 25px;
+	color: red;
+	font-size: 38px;
+}
+p#iamge-p-three {
+	position: absolute;
+	bottom: 15px;
+	left: 25px;
+	color: red;
+	font-size: 38px;
+}
+p#iamge-p-four {
+	position: absolute;
+	bottom: 15px;
+	right: 25px;
+	color: red;
+	font-size: 38px;
+}
+p#iamge-p-five {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: red;
+	font-size: 38px;
+	transform: translate(-50%, -50%);
+}
+
+
+
+						/*Image Filtering */
+div#filtering-body {
+	margin: auto;
+	clear: both;
+	width: 90%;
+	border: 1px solid white;
+	display: table;
+	background-color: white;
+}
+div#filtering-body-container {
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+div#filtering-image {
+	display: inline-table;
+	border: 1px solid yellow;
+	margin: 25px;
+	background-color: white;
+	box-shadow: 0 4px 10px 3px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+div#filtering-image img{
+	display: block;
+	max-width: 100%;
+	/*opacity: 0.7;*/
+}
+div#filtering-image img:hover{
+	opacity: 0.9;
+}
+div#filtering-image p {
+	text-align: center;
+	color: black;
+	padding: 10px 15px;
+}
+div.filtering-image-one img {
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+}
+div.filtering-image-two img {
+	-webkit-filter: blur(1px);
+	filter: blur(1px);/*brightness(250%)*/
+}
+div.filtering-image-three img {
+	-webkit-filter: drop-shadow(8px 8px 10px green);
+	filter: drop-shadow(8px 8px 10px green);
+}
+div.filtering-image-four img {
+	-webkit-filter: contrast(180%);
+	filter: contrast(180%);
+}
+div.filtering-image-five img {
+	-webkit-filter: hue-rotate(180deg);
+	filter: hue-rotate(180deg);
+}
+div.filtering-image-six img {
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+div.filtering-image-seven img {
+	-webkit-filter: saturate(7);
+	filter: saturate(7);
+}
+div.filtering-image-eight img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+
+
+				/*Image Hover Overlay*/
+
+div#hover-overlay-body {
+	margin: auto;
+	clear: both;
+	width: 90%;
+	display: table;
+}
+
+				/*Fade in a text*/
+				
+div#hover-overlay-container-one {
+    position: relative;
+    width: 49%;
+    margin: auto;
+	display: inline-table;
+	margin: 5px;
+	border: 1px groove transparent;
+	outline: none;
+}
+	
+img#img-one {
+    width: 100%;
+    height: auto;
+	display: block;
+}
+div.text-one {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+div#overlay-one {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .7s linear;
+    background-color: #008CBA;
+}
+
+div#hover-overlay-container-one:hover div#overlay-one{
+    opacity: 1;
+	border: 1px groove red;
+}
+
+						/*Fade in a box*/
+
+
+div#hover-overlay-container-two {
+    position: relative;
+    width: 49%;
+    margin: auto;
+	display: inline-table;
+	margin: 5px;
+	border: 1px groove transparent;
+	outline: none;
+}
+	
+img#img-two {
+    width: 100%;
+    height: auto;
+	opacity: 1.0;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	display: block;
+}
+div.text-two {
+	color: white;
+	font-size: 30px;
+	background-color: #4CAF50;
+	padding: 16px 32px;
+}
+
+div#overlay-two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transition: .7s linear;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+
+div#hover-overlay-container-two:hover img#img-two{
+    opacity: 0.2;
+}
+div#hover-overlay-container-two:hover div#overlay-two{
+    opacity: 1;
+	border: 1px groove red;
+}						
+
+							/*Slide in over lay from the top*/
+
+
+div#hover-overlay-container-three {
+    position: relative;
+    width: 49%;
+    margin: auto;
+	display: inline-table;
+	margin: 5px;
+	border: 1px groove transparent;
+	outline: none;
+}
+	
+img#img-three {
+    width: 100%;
+    height: auto;
+	display: block;
+}
+div.text-three {
+	color: white;
+	font-size: 30px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	text-align: center;
+	position: absolute;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+div#overlay-three {
+	width: 100%;
+	height: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+	bottom: 100%;
+	background-color: #008CBA;
+	overflow: hidden;
+	transition: .7s ease-in;
+}
+div#hover-overlay-container-three:hover div#overlay-three{
+    bottom: 0;
+	height: 100%;
+	border: 1px groove red;
+}
+				
+
+
+						/*Slide in over lay from the bottom*/
+
+
+div#hover-overlay-container-four {
+    position: relative;
+    width: 49%;
+    margin: auto;
+	display: inline-table;
+	margin: 5px;
+	border: 1px groove transparent;
+	outline: none;
+}
+	
+img#img-four {
+    width: 100%;
+    height: auto;
+	display: block;
+}
+div.text-four {
+	color: white;
+	font-size: 30px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	text-align: center;
+	position: absolute;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+div#overlay-four {
+	width: 100%;
+	height: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+	top: 100%;
+	background-color: #008CBA;
+	overflow: hidden;
+	transition: .7s ease-in;
+}
+div#hover-overlay-container-four:hover div#overlay-four{
+    top: 0;
+	height: 100%;
+	border: 1px groove red;
+}						
+
+
+				/*Slide in over lay from the left*/
+
+
+div#hover-overlay-container-five {
+    position: relative;
+    width: 49%;
+    margin: auto;
+	display: inline-table;
+	margin: 5px;
+	border: 1px groove transparent;
+	outline: none;
+}
+	
+img#img-five {
+    width: 100%;
+    height: auto;
+	display: block;
+}
+div.text-five {
+	color: white;
+	font-size: 30px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	text-align: center;
+	position: absolute;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+div#overlay-five {
+	height: 100%;
+	width: 0;
+    position: absolute;
+    right: 100%;
+    left: 0;
+	top: 0;
+	background-color: #008CBA;
+	overflow: hidden;
+	transition: .7s ease-in;
+}
+div#hover-overlay-container-five:hover div#overlay-five{
+    right: 0;
+	width: 100%;
+	border: 1px groove red;
+}						
+
+
+					/*Slide in over lay from the right*/
+
+
+div#hover-overlay-container-six {
+    position: relative;
+    width: 49%;
+    margin: auto;
+	display: inline-table;
+	margin: 5px;
+	border: 1px groove transparent;
+	outline: none;
+}
+	
+img#img-six {
+    width: 100%;
+    height: auto;
+	display: block;
+}
+div.text-six {
+	color: white;
+	font-size: 30px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	text-align: center;
+	position: absolute;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+div#overlay-six {
+	height: 100%;
+	width: 0;
+    position: absolute;
+    left: 100%;
+    right: 0;
+	top: 0;
+	background-color: #008CBA;
+	overflow: hidden;
+	transition: .7s ease-in;
+}
+div#hover-overlay-container-six:hover div#overlay-six{
+    left: 0;
+	width: 100%;
+	border: 1px groove red;
+}
+
+
+
+
+							/*responsive-image-gallery*/
+
+div.img {
+    border: 1px solid #777;
+}
+
+div.img:hover {
+    border: 1px solid #ccc;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+div#responsive-image-gallery {
+	margin: auto;
+	width: 90%;
+	color: white;
+	-display: table;   /*float and dislpay inline-table does same work*/
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+	-display: inline-table;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+		-padding: 4px 0px;
+    }
+}
+
+.clearfix{
+    padding-top: 6px;
+	clear: both;
+}
